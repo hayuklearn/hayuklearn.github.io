@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,R as o}from"./chunks/framework.D6kTAKe3.js";const _=JSON.parse('{"title":"Learning Notes Collection","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),r={name:"index.md"},n=o("",19),p=[n];function i(d,l,h,s,c,m){return t(),a("div",null,p)}const S=e(r,[["render",i]]);export{_ as __pageData,S as default};

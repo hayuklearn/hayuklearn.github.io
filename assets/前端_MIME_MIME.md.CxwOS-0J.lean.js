@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as l,R as n}from"./chunks/framework.D6kTAKe3.js";const m=JSON.parse('{"title":"MIME 字典","description":"","frontmatter":{},"headers":[],"relativePath":"前端/MIME/MIME.md","filePath":"前端/MIME/MIME.md"}'),r={name:"前端/MIME/MIME.md"},d=n("",6),i=[d];function a(c,s,x,g,y,p){return l(),e("div",null,i)}const f=t(r,[["render",a]]);export{m as __pageData,f as default};

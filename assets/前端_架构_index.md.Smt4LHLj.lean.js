@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,R as r}from"./chunks/framework.D6kTAKe3.js";const m=JSON.parse('{"title":"架构","description":"","frontmatter":{},"headers":[],"relativePath":"前端/架构/index.md","filePath":"前端/架构/index.md"}'),_={name:"前端/架构/index.md"},o=r("",4),n=[o];function d(s,c,i,V,h,p){return t(),a("div",null,n)}const M=e(_,[["render",d]]);export{m as __pageData,M as default};

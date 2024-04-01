@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as n,R as s}from"./chunks/framework.D6kTAKe3.js";const b=JSON.parse('{"title":"关于跨域","description":"","frontmatter":{},"headers":[],"relativePath":"前端/跨域/跨域.md","filePath":"前端/跨域/跨域.md"}'),o={name:"前端/跨域/跨域.md"},l=s("",30),t=[l];function i(p,c,r,d,h,g){return n(),e("div",null,t)}const f=a(o,[["render",i]]);export{b as __pageData,f as default};

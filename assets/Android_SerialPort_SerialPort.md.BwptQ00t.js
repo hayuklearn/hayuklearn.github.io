@@ -1,0 +1,33 @@
+import{_ as s,c as n,o as a,R as e}from"./chunks/framework.D6kTAKe3.js";const y=JSON.parse('{"title":"Android 串口通信","description":"","frontmatter":{},"headers":[],"relativePath":"Android/SerialPort/SerialPort.md","filePath":"Android/SerialPort/SerialPort.md"}'),p={name:"Android/SerialPort/SerialPort.md"},l=e(`<h1 id="android-串口通信" tabindex="-1">Android 串口通信 <a class="header-anchor" href="#android-串口通信" aria-label="Permalink to &quot;Android 串口通信&quot;">​</a></h1><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span>/* OnePlus 6</span></span>
+<span class="line"><span> * </span></span>
+<span class="line"><span> * 1. 获取驱动列表</span></span>
+<span class="line"><span> * Vector&lt;Driver&gt; getDrivers() throws IOException;</span></span>
+<span class="line"><span> *</span></span>
+<span class="line"><span> * /proc/tty/drivers -----------------------------------------------------------</span></span>
+<span class="line"><span> * /dev/tty              /dev/tty        5 0         system:/dev/tty</span></span>
+<span class="line"><span> * /dev/console          /dev/console    5 1         system:console</span></span>
+<span class="line"><span> * /dev/ptmx             /dev/ptmx       5 2         system</span></span>
+<span class="line"><span> * /dev/vc/0             /dev/vc/0       4 0         system:vtmaster</span></span>
+<span class="line"><span> * usbserial             /dev/ttyUSB   188 0-511     serial</span></span>
+<span class="line"><span> * acm                   /dev/ttyACM   166 0-255     serial</span></span>
+<span class="line"><span> * okl4-vservices-serial /dev/ttyVS    234 0-7       serial</span></span>
+<span class="line"><span> * okl4-vtty             /dev/ttyV     236 0-7       serial</span></span>
+<span class="line"><span> * msm_geni_serial_hs    /dev/ttyHS    237 0-14      serial</span></span>
+<span class="line"><span> * pty_slave             /dev/pts      136 0-1048575 pty:slave</span></span>
+<span class="line"><span> * pty_master            /dev/ptm      128 0-1048575 pty:master</span></span>
+<span class="line"><span> * msm-eud               /dev/ttyEUD   244         0 serial</span></span>
+<span class="line"><span> * unknown               /dev/tty        4 1-63      console</span></span>
+<span class="line"><span> * </span></span>
+<span class="line"><span> * 2. 过滤出串口驱动</span></span>
+<span class="line"><span> *</span></span>
+<span class="line"><span> * drivers with keyword serial -------------------------------------------------</span></span>
+<span class="line"><span> * Found new driver usbserial             on /dev/ttyUSB</span></span>
+<span class="line"><span> * Found new driver acm                   on /dev/ttyACM</span></span>
+<span class="line"><span> * Found new driver okl4-vservices-serial on /dev/ttyVS</span></span>
+<span class="line"><span> * Found new driver okl4-vtty             on /dev/ttyV</span></span>
+<span class="line"><span> * Found new driver msm_geni_serial_hs    on /dev/ttyHS</span></span>
+<span class="line"><span> * Found new driver msm-eud               on /dev/ttyEUD</span></span>
+<span class="line"><span> *</span></span>
+<span class="line"><span> * 3. 根据 serial port driver 过滤 /dev 下的串口设备</span></span>
+<span class="line"><span> * public Vector&lt;File&gt; getDevices();</span></span>
+<span class="line"><span> */</span></span></code></pre></div>`,2),t=[l];function i(r,d,o,c,v,_){return a(),n("div",null,t)}const u=s(p,[["render",i]]);export{y as __pageData,u as default};
